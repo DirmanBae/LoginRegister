@@ -72,10 +72,11 @@
                 android:textColorHint="@color/white"
                 android:layout_marginTop="20dp"/>
             <EditText
-                android:id="@+id/inUsername"
+                android:id="@+id/inputpass"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="password"
+                android:inputType="textPassword"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/outline_putih"
@@ -86,6 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Login"
+                android:id="@+id/btnLogin"
                 android:backgroundTint="@color/green"
                 android:textStyle="bold"
                 android:layout_marginLeft="20dp"

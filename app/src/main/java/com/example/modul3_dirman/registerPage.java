@@ -2,7 +2,10 @@ package com.example.modul3_dirman;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,6 +28,12 @@ public class registerPage extends AppCompatActivity {
 
         Button btnRegis = findViewById(R.id.btnRegister);
         Button kembali = findViewById(R.id.btnKembali);
+
+        EditText email = findViewById(R.id.email);
+        EditText pass = findViewById(R.id.user);
+        EditText user = findViewById(R.id.pass);
+
+
 
 
                 kembali.setOnClickListener(v -> {
